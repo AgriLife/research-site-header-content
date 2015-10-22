@@ -1,0 +1,59 @@
+.header-image .title-area .site-title a {
+  background: transparent none!important;
+  width: auto;
+  float: none;
+}
+.header-image .site-description,
+.header-image .site-title {
+  text-indent: 0;
+  color: #fff;
+  height: auto;
+}
+.header-image .site-description {
+  clear: both;
+  font-style: italic;
+}
+.title-area .research-logo {
+  float: left;
+  margin: 4px 16px 4px 0;
+}
+.header-image .site-title {
+  display: inline;
+  font-size: 29px;
+}
+.title-area .research-logo,
+.title-area .research-logo img {
+  height: 38px;
+}
+
+@media only screen and (max-width: 1023px){
+  .header-image .site-title {
+    width: 100%;
+  }
+  .header-image .site-description {
+    clear: none;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .header-image .site-title {
+    font-size: 22px;
+  }
+  .title-area .site-description {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .title-area .research-logo,
+  .title-area .research-logo img {
+    height: 54px;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .title-area .research-logo,
+  .title-area .research-logo img {
+    height: 48px;
+  }
+}

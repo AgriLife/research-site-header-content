@@ -1,0 +1,1 @@
+Required header content of research websites using a Genesis child theme.
